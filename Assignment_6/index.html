@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Zip Code</legend>
+        <label for="longUrl">Zip Code</label>
+        <input type="text" name="zipCode" id="zipCode">
+        <input type="submit" id="zipSubmit">
+      </fieldset>
+      <fieldset>
+        <legend>City, State</legend>
+        <label for="longUrl">Please enter City, State</label>
+        <input type="text" name="cityState" id="cityState">
+        <input type="submit" id="citySubmit">
+      </fieldset>
+    </form>
+
+    <div>
+      <h2>Result</h2>
+      <ul>
+        <li><span>City: </span><span id="cityRet"></span></li>
+        <li><span>Current Temp: </span><span id="tempRet"></span></li>
+        <li><span>Humidity: </span><span id="humRet"></span></li>
+      </ul>
+    </div>
+  </body>
+</html>
